@@ -3,12 +3,15 @@
   <img src="omnidoc_logo.png" />
 </p>
 
-OmniDoc is a voice-to-voice AI agent designed to streamline the diagnosis of generic illness symptoms into a seamless diagnostic process. 
+omnidoc is a voice-to-voice ai agent that automates patient intake and helps structure the diagnosis of common illness symptoms before a patient ever sees a physician.
 
-The AI agent converses with patients in a natural, intuitive manner, through voice interaction, gathering relevant health information and symptoms in real-time. It leverages LangChain sequence chaining alongside Open AI’s Whisper & GPT-4o APIs to understand the patient’s responses, ask follow-up questions, and clarify symptoms. 
+healthcare providers and hospital staff are often overwhelmed, spending significant time gathering basic symptom information, clarifying patient histories, and organizing notes. this administrative and intake burden reduces the time physicians can spend on actual clinical decision-making.
 
-OmniDoc then generates a report, accessible within our robust web application built with a Django and Supabase (PostgreSQL) backend, giving doctors more insight/context into their patients prior to seeing them.
+omnidoc addresses this by conducting a structured, real-time voice conversation with patients. it asks targeted follow-up questions, clarifies symptoms, and systematically collects relevant health information. the system guides patients through a dynamic diagnostic flow so that their responses are complete, organized, and clinically useful.
 
+after the conversation, omnidoc generates a concise intake report that physicians can review inside a web application prior to the appointment. this provides clearer context, improves preparedness, and streamlines the diagnostic process.
+
+the system leverages openai’s speech and language models for voice interaction and reasoning, and is supported by a django-based web application with a postgres database backend.
 <p align="center">
   <img src="omnidoc_diagram.png" />
 </p>
